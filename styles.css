@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card {
+  display: flex;
+  /* justify-content: center; */
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin: 100px;
+  border-radius: 10px;
+}
+
+.card .card-image img {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card .card-content{
+    height: 400px;
+    width: 300px;
+    padding: 15px;
+    margin-left: 10px;    
+}
+
+.card .card-content h3{
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    letter-spacing: 5px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.card .card-content h1{
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    font-family: "Fraunces", serif; 
+    color: hsl(212, 21%, 14%);
+}
+
+.card .card-content .card-description{
+    color: hsl(228, 12%, 48%);
+    font-size: 0.9rem;
+    padding: 5px;  
+    margin-bottom: 10px;  
+}
+
+.card .card-content .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fraunces", serif;
+    
+}
+
+.card .card-content .price .new{
+    color:hsl(158, 36%, 37%);
+    font-size: 35px;
+    margin-right: auto;
+}
+
+.card .card-content .price .old{
+    margin-right: 50px;
+    text-decoration-line: line-through;
+    color:  hsl(228, 12%, 48%);
+}
+
+button{
+    width: 240px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
